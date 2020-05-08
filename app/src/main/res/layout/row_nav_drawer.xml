@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="horizontal"
+    android:padding="3sp"
+    android:paddingStart="10dp"
+    android:paddingEnd="0dp">
+
+    <ImageView
+        android:id="@+id/navigation_icon"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/navigation_title"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="7sp"
+        android:gravity="center_vertical"
+        android:text="Custom Navigation Drawer Row"
+        android:textSize="18sp" />
+
+</LinearLayout>
